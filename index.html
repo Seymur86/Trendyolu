@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form - Trendyolu</title>
+    <link rel="stylesheet" href="./Assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>Merhaba,</h1>
+        <h3>Trendyol’a giriş yap veya hesap oluştur, indirimleri kaçırma!</h3>
+      </header>
+
+      <div class="main-box">
+        <form class="form-first">
+          <label class="label e-posta">E-posta</label>
+          <input type="email" id="MyEmail" required />
+          <br /><br />
+          <label class="label password">Şifre</label>
+          <input type="password" id="MyPassword" required />
+
+          <h3 class="text-h3">
+            Şifreniz<b>en az 7 karakter</b>ve<b>en fazla 64 karakter</b> olmalı,
+            harf ve rakam içermelidir.
+          </h3>
+          <br />
+        </form>
+
+        <form class="form-second">
+          <label class="label gender">Cinsiyet(Opsiyonel)</label><br />
+          <button type="submit">Kadın</button>
+          <button type="submit">Erkek</button>
+        </form>
+
+        <form class="form-third">
+          <input type="checkbox" />
+          <h4>
+            Kampanyalardan haberdar olabilmem için kişisel verilerimin
+            işlenmesini ve tarafıma elektronik ileti gönderilmesini kabul
+            ediyorum.
+          </h4>
+          <input type="checkbox" />
+          <h4 class="text-h4">
+            Kişisel verilerimin işlenmesine yönelik
+            <a href="#">aydınlatma metnini</a> okudum ve anladım.
+          </h4>
+        </form>
+
+        <section class="captcha">
+          <form class="form-captcha">
+            <input type="checkbox" id="checkbox" />
+            <label for="robot" class="label-text">Ben robot değilim</label>
+          </form>
+        </section>
+
+        <h5 class="error-text">
+          Üyelik işlemini güvenli hale getirmek için "Ben robot değilim" alanına
+          tıklayınız.
+        </h5>
+
+        <button class="register-uye" type="submit">
+          <a href="#">ÜYE OL</a>
+        </button>
+        <p class="kural">
+          Üye Ol’a basarak <a href="#">Üyelik Koşulları</a>nı kabul ediyorum.
+        </p>
+
+        <div class="final-social">
+          <button class="facebook-logo">
+            <img src="./Assets/img/facebook-logo.png" alt="facebook-logo" />
+            <a href="#">Facebook ile kaydol</a>
+          </button>
+
+          <button class="google-logo">
+            <img src="./Assets/img/google-logo.webp" alt="google-logo" />
+            <a href="#">Google ile kaydol</a>
+          </button>
+        </div>
+
+        <h5 class="final-h5">
+          Üye olmadan verilen siparişlerin takibi için
+          <a href="#">tıklayınız.</a>
+        </h5>
+      </div>
+    </div>
+  </body>
+</html>
